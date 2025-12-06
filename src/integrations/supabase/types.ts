@@ -1,9 +1,9 @@
-export type Json =
+export type Vinayak =
   | string
   | number
   | boolean
   | null
-  | { [key: string]: Json | undefined }
+  | { [key: string]: Vinayak | undefined }
   | Json[]
 
 export type Database = {
