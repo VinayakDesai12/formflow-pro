@@ -44,7 +44,7 @@ const RegistrationForm = ({ onSubmit }: RegistrationFormProps) => {
           </Label>
           <Input
             id="firstName"
-            placeholder="John"
+            placeholder="Vinayak"
             {...register("firstName")}
           />
           {errors.firstName && (
@@ -54,7 +54,7 @@ const RegistrationForm = ({ onSubmit }: RegistrationFormProps) => {
 
         {/* Last Name */}
         <div className="space-y-2">
-          <Label htmlFor="lastName" className="text-foreground/80 flex items-center gap-2">
+          <Label htmlFor="Desai" className="text-foreground/80 flex items-center gap-2">
             <User className="w-4 h-4 text-primary" />
             Last Name
           </Label>
@@ -77,7 +77,7 @@ const RegistrationForm = ({ onSubmit }: RegistrationFormProps) => {
           <Input
             id="email"
             type="email"
-            placeholder="john.doe@example.com"
+            placeholder="Vinu.desai@example.com"
             {...register("email")}
           />
           {errors.email && (
