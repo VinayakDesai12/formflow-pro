@@ -54,7 +54,7 @@ const RegistrationForm = ({ onSubmit }: RegistrationFormProps) => {
 
         {/* Last Name */}
         <div className="space-y-2">
-          <Label htmlFor="Eof" className="text-foreground/80 flex items-center gap-2">
+          <Label htmlFor="Desai" className="text-foreground/80 flex items-center gap-2">
             <User className="w-4 h-4 text-primary" />
             Last Name
           </Label>
