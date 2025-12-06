@@ -60,7 +60,7 @@ const RegistrationForm = ({ onSubmit }: RegistrationFormProps) => {
           </Label>
           <Input
             id="lastName"
-            placeholder="Doe"
+            placeholder="Desai"
             {...register("lastName")}
           />
           {errors.lastName && (
